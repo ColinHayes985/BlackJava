@@ -13,7 +13,14 @@ public class BlackJava {
         if (choice != 0) {
             System.exit(1);
         }
+        char[] deck={'A','A','A','A','2','2','2','2','3','3','3','3','4','4','4','4','5','5','5','5','6','6','6','6','7','7','7','7','8','8','8','8','9','9','9','9','J','J','J','J','Q','Q','Q','Q','K','K','K','K'};
+        Random r=new Random();
+        Scanner s=new Scanner(System.in);
+        int players=s.nextInt();
 
+        while :
+
+        }
         choice = JOptionPane.showOptionDialog(null, yourCards + dealersCards + yourChoice, gameName,
                 0, JOptionPane.QUESTION_MESSAGE, null, options, null);
     }
