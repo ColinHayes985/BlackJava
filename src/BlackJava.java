@@ -16,9 +16,22 @@ public class BlackJava {
         // THE GAME CONTINUES...
         ArrayList<Character> playerDeck = new ArrayList<Character>();
         ArrayList<Character> dealerDeck = new ArrayList<Character>();
-        char[] deck={'A','A','A','A','2','2','2','2','3','3','3','3','4','4','4','4','5','5','5','5','6','6','6','6','7','7','7','7','8','8','8','8','9','9','9','9','J','J','J','J','Q','Q','Q','Q','K','K','K','K'};
+        char[] deck={'A','A','A','A','2','2','2','2','3','3','3','3','4','4','4','4','5','5','5','5','6','6','6','6','7','7','7','7','8','8','8','8','9','9','9','9','T','T','T','T','J','J','J','J','Q','Q','Q','Q','K','K','K','K'};
         Random r = new Random();
 
+
+            for(int i=0; i<2; i++) {
+                int index=r.nextInt(52);
+                while (deck[index] != '*') {
+                    playerDeck.add(deck[index]);
+                    deck[index]='*';
+            }
+
+            //add deck[index] to player deck
+            //set deck index to null
+
+        }
+        System.out.println("Player Cards:"+playerDeck);
         choice = JOptionPane.showOptionDialog(null, yourCards + dealersCards + yourChoice, gameName,
                 0, JOptionPane.QUESTION_MESSAGE, null, options, null);
     }
