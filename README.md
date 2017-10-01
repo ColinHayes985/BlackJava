@@ -1,6 +1,6 @@
 # BlackJava
 
-<h2>A Java-based Blackjack simulator.</h2>
+<h3>A Java-based Blackjack simulator.</h3>
 <img align="right" width="350px" height="350px" src="media/blackjavablank.png">
 <br><br>
 
