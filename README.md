@@ -5,4 +5,4 @@
 <br><br>
 
 Made by [@andrewsdavis](http://github.com/andrewsdavis) and [@ColinHayes985](http://github.com/ColinHayes985)
-<br>@ BoilerMake V Hackathon (Purdue University, 2017)
+<br>@ [BoilerMake](http://boilermake.org) V Hackathon (Purdue University, 2017)
